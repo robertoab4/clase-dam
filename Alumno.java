@@ -14,6 +14,15 @@ public class Alumno {
         nombre = nombreCompleto;
         numeroMatricula = numeroMatriculaAlumno;
         edad = edadAlumno;
+        if (nombreCompleto.length() < 3) {
+            System.out.println("El parámetro 'nombreCompleto' debe tener mas de 2 caracateres");
+            System.out.println();
+        }
+        if (numeroMatriculaAlumno.length() < 4) {
+            System.out.println("El parámetro 'numeroMatriculaAlumno' debe tener mas de 3 caracateres");
+            System.out.println();
+        }
+        else{}
     }
 
     /**
